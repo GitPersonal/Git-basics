@@ -1,4 +1,4 @@
-![Github logo](GitHub-Mark-Light-64px.png)
+![Github logo](GitHub-Mark-64px.png)
 
 ## Git Basics
 
