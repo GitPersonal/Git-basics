@@ -81,6 +81,14 @@ and another one for email.
 1. To create a new branch first make sure your commit all changes to the repo.
 
 2. Type `git branch name_of_new_branch`
+   Just creating a new branch doesn't change us to the branch. type `git status` and you'll notice you are still in the old branch.
+
+3. To switch branch type `git checkout` **`name_of_branch`**
+   make all your changes and commit them like normal.
+
+4. To switch back to the master branch type `git checkout` **`master`**
+
+5. When your ready to merge the new branch back in to the master branch type `git merge` **`name_of_the_new_branch`**. A message might appear asking why this change is necessary. Type in a message.
 
 ---
 
@@ -95,3 +103,5 @@ Go into a folder and type `git init` creates a `.git` folder in project and is h
 `* .html`
 
 `git status` to see what you have in the staging area and ready for commit
+
+[https://www.youtube.com/watch?v=SWYqp7iY_Tc](reference)
