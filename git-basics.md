@@ -36,6 +36,52 @@ Open `Terminal`
 
 type `git --version` or `-v`
 
+`cd` in to an existing project folder or create a new one with `mkdir` and give it a **`folder_name`**.
+
+Create a new file by typing `touch` **`name_of_file`**
+
+`Example: touch index.html`
+
+Type in some code in the new file and save it.
+
+In Terminal we want to initialize it.
+
+Type `git init`.
+
+This creates a `.git` folder in the directory, but we can't see it.
+
+Before you start add your name and email by typing
+`git config --global user.name "You_Name"`
+
+and another one for email.
+
+`git config --global user.email "your@email.com"`
+
+1. Add your file to the repository by typing `git add index.html`.
+
+2. Type `git status` chanes to be committed will appear.
+
+3. If you want to remove the file type `git rm --cached index.hmtl`.
+
+4. Type `git status` and you'll noticed the file is untracked.
+
+5. Type `git add * .html` and this will add any html files to the staging area.
+
+6. To add every file type `git add .`
+
+7. Type `git commit -m "type a comment of what is being committed to the repo"`.
+
+8. How to use `.gitigmore file`. This is to add files and folders we want to ignore and not add to the repo.
+   Type `touch .gitignore` in the folder your working in and open it. `Example: If you have a log.txt file in your project folder, type the name of file in the .gitigmore file and save.
+
+---
+
+## Branches
+
+1. To create a new branch first make sure your commit all changes to the repo.
+
+2. Type `git branch name_of_new_branch`
+
 ---
 
 `git init` initialize local Git Repository.
