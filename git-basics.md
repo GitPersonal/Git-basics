@@ -20,7 +20,8 @@
 
 `git push` Push to remote Repository
 
-`git clone` Clone repository into a new directory
+`git clone` Clone repository into a new directory. 
+In terminal, cd to local folder you want to save the repository to. Then, type git colne. Clone the repository in Github that you want to clone. Click the Clone button and use the https version. click the copy icon and return to terminal and type 'Git clone' and then paste. 
 
 ---
 
