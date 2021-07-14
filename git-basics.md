@@ -14,7 +14,7 @@
 
 `git` Check status of working tree
 
-`git` Commit changes i Index
+`git` Commit changes Index
 
 `git pull` Pull latest from remote Repository
 
